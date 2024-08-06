@@ -4,7 +4,7 @@
   "description": "Task Management App Server",
   "main": "server.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=dev && node app.js",
+    "start": "node app.js",
     "server": "nodemon server.js"
   },
   "keywords": [],
