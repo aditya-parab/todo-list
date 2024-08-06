@@ -1,0 +1,21 @@
+{
+  "name": "task-management-app",
+  "version": "1.0.0",
+  "description": "Task Management Full Stack Application",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "nodemon server/server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.5.1",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.8.0",
+    "react-router-dom": "^6.26.0"
+  }
+}
